@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Green_for_the_Earth.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Green_for_the_Earth"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="LightGreen">
+
+    <Grid>
+        <TextBlock x:ConnectionId='1' Name="txt_Title" HorizontalAlignment="Center" Margin="0,129,0,0" Text="Green for the Planet" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" FontFamily="Cambria Math"/>
+        <TextBox x:ConnectionId='2' Name="txtBox_Username" HorizontalAlignment="Center" Margin="0,349,0,0" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Width="307"/>
+        <TextBlock x:ConnectionId='3' Name="txt_Username" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,305,0,0" Text="Type your Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="308"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,485,0,0" Text="Type your Password" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <PasswordBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="307" Margin="0,543,0,0"/>
+
+    </Grid>
+</Page>
+
