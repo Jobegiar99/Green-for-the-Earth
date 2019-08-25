@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\BackgroundMain.jpg" />
+    <Content Include="Assets\BackgroundTest.jpeg" />
     <Content Include="Assets\BackgroundUserMenu.jpg" />
     <Content Include="Assets\IndividualProgress.png" />
     <Content Include="Assets\Information.png" />

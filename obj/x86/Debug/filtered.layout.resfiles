@@ -1,5 +1,6 @@
 WinMetadata\Windows.winmd
 Assets\BackgroundMain.jpg
+Assets\BackgroundTest.jpeg
 Assets\BackgroundUserMenu.jpg
 Assets\IndividualProgress.png
 Assets\Information.png
@@ -14,6 +15,7 @@ Assets\testMenuIcon.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\World.png
 App.xbf
+ClimateChangeTest.xbf
 Green for the Earth.xr.xml
 MainPage.xbf
 RegistrationMenu.xbf

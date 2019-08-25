@@ -460,6 +460,9 @@
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\BackgroundUserMenu.jpg">
       <PackagePath>Assets\BackgroundUserMenu.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\BackgroundTest.jpeg">
+      <PackagePath>Assets\BackgroundTest.jpeg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\IndividualProgress.png">
       <PackagePath>Assets\IndividualProgress.png</PackagePath>
     </AppxPackagedFile>
@@ -510,6 +513,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\ClimateChangeTest.xbf">
+      <PackagePath>ClimateChangeTest.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

@@ -6,9 +6,22 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    FontFamily="Candata">
 
-    <Grid>
+    <Grid Height="auto" Width="auto" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Assets/BackgroundTest.jpeg" Stretch="Fill">
+
+        </Image>
+        <TextBlock x:Name="txt_YesNoQuestion" FontSize="40" Foreground="White" Width="auto"  HorizontalAlignment="Center" Margin="0,129,0,0" Text="__QUESTION__" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="button_yes" Opacity=".85" Width="100" Background="Black" FontSize="20" Foreground="White" Content="Yes" Margin="525,233,0,0" VerticalAlignment="Top"/>
+        <Button Name="button_no" Opacity=".85" Width="100" Background="Black" FontSize="20" Foreground="White" Content="No" Margin="876,233,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txt_DropDownQuestion" FontSize="40" Foreground="White" Width="auto"  HorizontalAlignment="Center" Margin="0,325,0,0" Text="__QUESTION__" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Opacity=".85" Background="Black" FontSize="20" Foreground="White" FontFamily="20" Name="button_ComboBox" Content="Submit Answer" Margin="0,500,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="256"/>
+        <CheckBox x:Name="comboBox_Answer" Content="CheckBox" Margin="1914,349,0,0" VerticalAlignment="Top"/>
+        <ComboBox Margin="0,405,0,0" Width="351" HorizontalAlignment="Center"/>
+        <Button Name="button_return" Background="Black" Click="Button_return_Click" Foreground="White" Opacity=".85" FontSize="20" Content="Return" Margin="0,750,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="349"/>
+        <Button Name="button_finish" Background="Black" Click="Button_finish_Click" Opacity=".85" Foreground="White" FontSize="20" Content="Finish the Test" Margin="0,626,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="254"/>
+
 
     </Grid>
 </Page>

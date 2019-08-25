@@ -10,11 +10,11 @@
 
     <Grid Height="auto" Width="auto" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image Source="Assets/BackgroundUserMenu.jpg" Stretch="Fill"/>
-        <Hub Name="hub_user" Foreground="White"  Margin="62,53,67,61" >
+        <Hub x:ConnectionId='2' Name="hub_user" Foreground="White"  Margin="62,53,67,61" >
             <HubSection  Width="350" Height="350" Margin="100,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button Opacity="0.45" Name="button_test" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Click="Button_test_Click" Height="180" Width="180" Margin="33,86,137,84">
+                        <Button x:ConnectionId='10' Opacity="0.45" Name="button_test" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                           Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/testMenuIcon.png"/>
                         </Button>
                         <TextBlock Opacity="0.8" Name="txt_Test" FontWeight="ExtraBold" Text="Ecological Footprint Test" Margin="0,280,0,0" FontSize="20"/>
@@ -69,7 +69,8 @@
 
 
         </Hub>
-        <Button  Opacity="0.85" FontSize="20" Name="button_return" Content="return" Click="Button_return_Click" Margin="150,650,0,0" Background="Black" Foreground="White" Width="100" Height="50" />
-        <Button  Opacity="0.85" FontSize="20" Name="button_exit" Content="Exit" Click="Button_exit_Click" Margin="1150,650,0,0" Background="Black" Foreground="White" Width="100" Height="50" />
+        <Button x:ConnectionId='3'  Opacity="0.85" FontSize="20" Name="button_return" Content="return"                             Margin="150,650,0,0" Background="Black" Foreground="White" Width="100" Height="50" />
+        <Button x:ConnectionId='4'  Opacity="0.85" FontSize="20" Name="button_exit" Content="Exit"                           Margin="1150,650,0,0" Background="Black" Foreground="White" Width="100" Height="50" />
     </Grid>
 </Page>
+
