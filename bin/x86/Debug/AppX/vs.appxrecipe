@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-IB4FHFU</Machine>
-    <WindowsUser>Bernardo</WindowsUser>
+    <Machine>DESKTOP-FHSM33M</Machine>
+    <WindowsUser>ianan</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>9f7adf6c-6766-4169-ad34-d9e0e3d72a09</PackageIdentityName>
     <PackageIdentityPublisher>CN=Bernardo</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>934C7326B56E58A49217CF5ECBEC802BCFE911A242BD7625021B5B4B3598C22C</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C1A18181B212F80994F0C75D939DA5BC6B42B4312AAE8E0ADC44A122B4CF695B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>9f7adf6c-6766-4169-ad34-d9e0e3d72a09_1.0.0.0_x86__9ssjt7fgpwf3t</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>9f7adf6c-6766-4169-ad34-d9e0e3d72a09_9ssjt7fgpwf3t!App</RegisteredUserModeAppID>
     <RegisteredPackageID>9f7adf6c-6766-4169-ad34-d9e0e3d72a09</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-25T02:01:33.568</Modified>
+      <Modified>2019-08-25T02:15:56.105</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Green for the Earth.exe">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\Green for the Earth.exe">
       <PackagePath>entrypoint\Green for the Earth.exe</PackagePath>
-      <Modified>2019-08-25T02:01:33.204</Modified>
+      <Modified>2019-08-25T02:15:55.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -198,7 +198,7 @@
       <PackagePath>System.Private.Uri.dll</PackagePath>
       <Modified>2019-02-15T19:51:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
       <Modified>2016-06-12T04:13:20.000</Modified>
     </AppxPackagedFile>
@@ -214,15 +214,15 @@
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
       <Modified>2016-06-12T04:13:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
       <Modified>2016-06-12T04:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
       <Modified>2016-06-12T04:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
       <Modified>2016-06-12T04:13:24.000</Modified>
     </AppxPackagedFile>
@@ -238,7 +238,7 @@
       <PackagePath>System.Data.Common.dll</PackagePath>
       <Modified>2016-06-12T04:13:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.diagnostics.contracts\4.0.1\lib\netcore50\System.Diagnostics.Contracts.dll">
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
       <Modified>2016-06-12T04:13:28.000</Modified>
     </AppxPackagedFile>
@@ -250,7 +250,7 @@
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
       <Modified>2016-07-01T20:48:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
       <Modified>2016-06-12T04:13:42.000</Modified>
     </AppxPackagedFile>
@@ -278,7 +278,7 @@
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
       <Modified>2016-06-12T04:13:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
       <Modified>2016-06-12T04:14:02.000</Modified>
     </AppxPackagedFile>
@@ -318,7 +318,7 @@
       <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
       <Modified>2016-06-12T04:14:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
       <PackagePath>System.Net.WebSockets.dll</PackagePath>
       <Modified>2016-06-12T04:14:08.000</Modified>
     </AppxPackagedFile>
@@ -366,11 +366,11 @@
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
       <Modified>2016-06-12T04:14:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
       <Modified>2016-06-12T04:14:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
       <Modified>2016-06-12T04:14:22.000</Modified>
     </AppxPackagedFile>
@@ -402,7 +402,7 @@
       <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
       <Modified>2016-06-12T04:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
       <PackagePath>System.Security.Claims.dll</PackagePath>
       <Modified>2016-06-12T04:14:40.000</Modified>
     </AppxPackagedFile>
@@ -426,7 +426,7 @@
       <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
       <Modified>2016-06-12T04:14:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
       <Modified>2016-06-12T04:14:46.000</Modified>
     </AppxPackagedFile>
@@ -450,7 +450,7 @@
       <PackagePath>System.ServiceModel.Security.dll</PackagePath>
       <Modified>2018-07-19T20:45:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\ianan\.nuget\packages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
       <Modified>2016-06-12T04:14:46.000</Modified>
     </AppxPackagedFile>
@@ -498,103 +498,103 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-23T07:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\BackgroundMain.jpg">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\BackgroundMain.jpg">
       <PackagePath>Assets\BackgroundMain.jpg</PackagePath>
-      <Modified>2019-08-24T20:57:06.064</Modified>
+      <Modified>2019-08-25T02:11:41.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\BackgroundUserMenu.jpg">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\BackgroundUserMenu.jpg">
       <PackagePath>Assets\BackgroundUserMenu.jpg</PackagePath>
-      <Modified>2019-08-24T22:18:12.757</Modified>
+      <Modified>2019-08-25T02:11:41.228</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\IndividualProgress.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\IndividualProgress.png">
       <PackagePath>Assets\IndividualProgress.png</PackagePath>
-      <Modified>2019-08-24T23:57:30.136</Modified>
+      <Modified>2019-08-25T02:11:41.230</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\Information.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\Information.png">
       <PackagePath>Assets\Information.png</PackagePath>
-      <Modified>2019-08-25T01:33:02.061</Modified>
+      <Modified>2019-08-25T02:11:41.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\registerActivity.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\registerActivity.png">
       <PackagePath>Assets\registerActivity.png</PackagePath>
-      <Modified>2019-08-25T01:27:25.292</Modified>
+      <Modified>2019-08-25T02:11:41.235</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\testMenuIcon.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\testMenuIcon.png">
       <PackagePath>Assets\testMenuIcon.png</PackagePath>
-      <Modified>2019-08-24T23:12:44.632</Modified>
+      <Modified>2019-08-25T02:11:41.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\World.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\World.png">
       <PackagePath>Assets\World.png</PackagePath>
-      <Modified>2019-08-25T00:20:48.680</Modified>
+      <Modified>2019-08-25T02:11:41.233</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-06-13T03:53:05.096</Modified>
+      <Modified>2019-08-24T19:21:45.721</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T03:53:05.096</Modified>
+      <Modified>2019-08-24T19:21:45.722</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T03:53:05.096</Modified>
+      <Modified>2019-08-24T19:21:45.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T03:53:05.096</Modified>
+      <Modified>2019-08-24T19:21:45.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T03:53:05.096</Modified>
+      <Modified>2019-08-24T19:21:45.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T03:53:05.096</Modified>
+      <Modified>2019-08-24T19:21:45.725</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-06-13T03:53:05.096</Modified>
+      <Modified>2019-08-24T19:21:45.726</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-08-24T17:50:29.638</Modified>
+      <Modified>2019-08-24T19:21:45.731</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Green for the Earth.xr.xml">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\Green for the Earth.xr.xml">
       <PackagePath>Green for the Earth.xr.xml</PackagePath>
-      <Modified>2019-08-25T01:36:05.408</Modified>
+      <Modified>2019-08-25T02:11:41.359</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-08-25T02:01:33.029</Modified>
+      <Modified>2019-08-25T02:15:54.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-08-25T02:01:33.029</Modified>
+      <Modified>2019-08-25T02:15:54.946</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\RegistrationMenu.xbf">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\RegistrationMenu.xbf">
       <PackagePath>RegistrationMenu.xbf</PackagePath>
-      <Modified>2019-08-25T02:01:33.030</Modified>
+      <Modified>2019-08-25T02:15:54.947</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\UserMenu.xbf">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\UserMenu.xbf">
       <PackagePath>UserMenu.xbf</PackagePath>
-      <Modified>2019-08-25T02:01:33.029</Modified>
+      <Modified>2019-08-25T02:15:54.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-10-23T06:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-08-25T01:35:15.752</Modified>
+      <Modified>2019-08-25T02:12:57.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Core\Green for the Earth.exe">
+    <AppxPackagedFile Include="C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\Core\Green for the Earth.exe">
       <PackagePath>Green for the Earth.exe</PackagePath>
-      <Modified>2019-08-25T02:01:33.556</Modified>
+      <Modified>2019-08-25T02:15:56.079</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
