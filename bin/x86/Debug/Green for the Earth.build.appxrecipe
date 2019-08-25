@@ -385,6 +385,9 @@
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\testMenuIcon.png">
       <PackagePath>Assets\testMenuIcon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\World.png">
+      <PackagePath>Assets\World.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
