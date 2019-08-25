@@ -40,37 +40,33 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Name" />
       <RootProperty Name="IsTextSelectionEnabled" />
       <RootProperty Name="SelectionHighlightColor" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="UseLayoutRounding" />
-      <RootProperty Name="Inlines" />
+      <RootProperty Name="Name" />
       <RootProperty Name="FocusVisualPrimaryBrush" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="TextLineBounds" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Opacity" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Hyperlink">
-      <RootProperty Name="NavigateUri" />
-    </RootType>
-    <RootType FullName="Green_for_the_Earth.Bibliography" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Name" />
-      <RootProperty Name="Opacity" />
       <RootProperty Name="Background" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Opacity" />
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="Height" />
       <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="Green_for_the_Earth.Bibliography" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="Name" />
       <RootProperty Name="Margin" />
