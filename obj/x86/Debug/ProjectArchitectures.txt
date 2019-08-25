@@ -1,1 +1,1 @@
-C:\Users\ianan\Green-for-the-Earth\Green for the Earth.csproj;x86
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Green for the Earth.csproj;x86
