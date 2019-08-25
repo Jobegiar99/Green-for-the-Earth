@@ -132,6 +132,10 @@
     <Compile Include="Migrations\20190825014110_initial.designer.cs">
       <DependentUpon>20190825014110_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20190825085223_added-Emision.cs" />
+    <Compile Include="Migrations\20190825085223_added-Emision.designer.cs">
+      <DependentUpon>20190825085223_added-Emision.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\GreenContextModelSnapshot.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
