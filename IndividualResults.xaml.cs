@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Green_for_the_Earth.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -27,25 +28,35 @@ namespace Green_for_the_Earth
         public IndividualResults()
         {
             this.InitializeComponent();
-            if (progressBar_House.Value <= 50) progressBar_House.Foreground = new SolidColorBrush(Colors.Green);
-            else if (progressBar_House.Value <= 150) progressBar_House.Foreground = new SolidColorBrush(Colors.YellowGreen);
-            else if (progressBar_House.Value <= 250) progressBar_House.Foreground = new SolidColorBrush(Colors.GreenYellow);
-            else if (progressBar_House.Value <= 350) progressBar_House.Foreground = new SolidColorBrush(Colors.OrangeRed);
-            else if (progressBar_House.Value <= 450) progressBar_House.Foreground = new SolidColorBrush(Colors.PaleVioletRed);
+
+            using(var db = new GreenContext())
+            {
+                var bars = db.Usuarios.Where(u => u.Id == MainPage.UserId)
+                    .Select(l => new { l.Electricidad, l.KmCarro, l.KmCamion, l.KmVuelos, l.KmTaxi, l.Carne }).FirstOrDefault();
+                progressBar_House.Value = bars.Electricidad;
+                progressBar_Transport.Value = bars.KmCarro + bars.KmCamion + bars.KmVuelos + bars.KmTaxi;
+                progressBar_Meat.Value = bars.Carne;
+            }
+
+            if (progressBar_House.Value <= 700) progressBar_House.Foreground = new SolidColorBrush(Colors.Green);
+            else if (progressBar_House.Value <= 1000) progressBar_House.Foreground = new SolidColorBrush(Colors.YellowGreen);
+            else if (progressBar_House.Value <= 1300) progressBar_House.Foreground = new SolidColorBrush(Colors.GreenYellow);
+            else if (progressBar_House.Value <= 1600) progressBar_House.Foreground = new SolidColorBrush(Colors.OrangeRed);
+            else if (progressBar_House.Value > 1600) progressBar_House.Foreground = new SolidColorBrush(Colors.PaleVioletRed);
             else progressBar_House.Foreground = new SolidColorBrush(Colors.DarkRed);
 
-            if (progressBar_Transport.Value <= 50) progressBar_Transport.Foreground = new SolidColorBrush(Colors.Green);
-            else if (progressBar_Transport.Value <= 150) progressBar_Transport.Foreground = new SolidColorBrush(Colors.YellowGreen);
-            else if (progressBar_Transport.Value <= 250) progressBar_Transport.Foreground = new SolidColorBrush(Colors.GreenYellow);
-            else if (progressBar_Transport.Value <= 350) progressBar_Transport.Foreground = new SolidColorBrush(Colors.OrangeRed);
-            else if (progressBar_Transport.Value <= 450) progressBar_Transport.Foreground = new SolidColorBrush(Colors.PaleVioletRed);
+            if (progressBar_Transport.Value <= 20) progressBar_Transport.Foreground = new SolidColorBrush(Colors.Green);
+            else if (progressBar_Transport.Value <= 45) progressBar_Transport.Foreground = new SolidColorBrush(Colors.YellowGreen);
+            else if (progressBar_Transport.Value <= 70) progressBar_Transport.Foreground = new SolidColorBrush(Colors.GreenYellow);
+            else if (progressBar_Transport.Value <= 90) progressBar_Transport.Foreground = new SolidColorBrush(Colors.OrangeRed);
+            else if (progressBar_Transport.Value > 90) progressBar_Transport.Foreground = new SolidColorBrush(Colors.PaleVioletRed);
             else progressBar_Transport.Foreground = new SolidColorBrush(Colors.DarkRed);
 
-            if (progressBar_Meat.Value <= 50) progressBar_Meat.Foreground = new SolidColorBrush(Colors.Green);
-            else if (progressBar_Meat.Value <= 150) progressBar_Meat.Foreground = new SolidColorBrush(Colors.YellowGreen);
-            else if (progressBar_Meat.Value <= 250) progressBar_Meat.Foreground = new SolidColorBrush(Colors.GreenYellow);
-            else if (progressBar_Meat.Value <= 350) progressBar_Meat.Foreground = new SolidColorBrush(Colors.OrangeRed);
-            else if (progressBar_Meat.Value <= 450) progressBar_Meat.Foreground = new SolidColorBrush(Colors.PaleVioletRed);
+            if (progressBar_Meat.Value <= 3) progressBar_Meat.Foreground = new SolidColorBrush(Colors.Green);
+            else if (progressBar_Meat.Value <= 8) progressBar_Meat.Foreground = new SolidColorBrush(Colors.YellowGreen);
+            else if (progressBar_Meat.Value <= 12) progressBar_Meat.Foreground = new SolidColorBrush(Colors.GreenYellow);
+            else if (progressBar_Meat.Value <= 16) progressBar_Meat.Foreground = new SolidColorBrush(Colors.OrangeRed);
+            else if (progressBar_Meat.Value > 16) progressBar_Meat.Foreground = new SolidColorBrush(Colors.PaleVioletRed);
             else progressBar_Meat.Foreground = new SolidColorBrush(Colors.DarkRed);
 
             splitView_tips.PaneBackground= new ImageBrush { ImageSource = new BitmapImage(new Uri("ms-appx:///Assets/backPanelTips.jpg")), Stretch = Stretch.Fill };
