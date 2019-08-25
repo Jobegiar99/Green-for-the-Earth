@@ -56,5 +56,10 @@ namespace Green_for_the_Earth
         {
             this.Frame.Navigate(typeof(WorldProgress));
         }
+
+        private void Button_RegisterActivity_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(RegisterActivity));
+        }
     }
 }

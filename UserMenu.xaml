@@ -5,7 +5,7 @@
     xmlns:local="using:Green_for_the_Earth"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
+    mc:Ignorable="d" FontFamily="Candara"
     >
 
     <Grid Height="auto" Width="auto" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -47,7 +47,7 @@
             <HubSection Margin="-1670,300,0,0" Width="288" Height="351">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button Opacity="0.45" Name="button_RegisterActivity" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                        <Button Opacity="0.45" Name="button_RegisterActivity" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Click="Button_RegisterActivity_Click" Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/RegisterActivity.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock Opacity="1"  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text="     Register an Activity" Margin="0,280,0,0" FontSize="20"/>
