@@ -532,6 +532,9 @@
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\RegisterActivity.xbf">
+      <PackagePath>RegisterActivity.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\RegistrationMenu.xbf">
       <PackagePath>RegistrationMenu.xbf</PackagePath>
     </AppxPackagedFile>
