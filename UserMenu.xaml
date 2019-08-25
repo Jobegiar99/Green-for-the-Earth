@@ -31,8 +31,17 @@
                         <TextBlock Opacity="0.8" Name="txt_Test" FontWeight="ExtraBold" Text="     Check your Progress" Margin="0,280,0,0" FontSize="20"/>
                     </Grid>
                 </DataTemplate>
-                
-                
+            </HubSection>
+
+            <HubSection  Width="350" Height="350" Margin="100,-525,0,0">
+                <DataTemplate>
+                    <Grid  Opacity="1" Height="350" Width="350">
+                        <Button Opacity="0.45" Name="button_WorldProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                            <Image  Source="Assets/World.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
+                        </Button>
+                        <TextBlock Opacity="1"  Name="txt_Test" FontWeight="ExtraBold" Text="Check the Rest of the World!" Margin="0,280,0,0" FontSize="20"/>
+                    </Grid>
+                </DataTemplate>
             </HubSection>
 
 
