@@ -12,12 +12,12 @@
         <Image Source="Assets/BackgroundTest.jpeg" Stretch="Fill"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,100,0,0" Foreground="White" FontSize="30" Text="Select a Category" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <ComboBox Margin="0,142,0,0" HorizontalAlignment="Center" Width="366"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,262,0,0" Foreground="White" FontSize="30" Text="Select An Activity" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <ComboBox Margin="0,304,0,0" Width="366" HorizontalAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,388,0,0" Foreground="White" FontSize="30" Text="Select an answer for your Activity" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <ComboBox Margin="0,436,0,0" Width="366" HorizontalAlignment="Center"/>
-        <Button Name="button_register" Background="Black" Foreground="White" Opacity=".85" Content="Register Activity" Margin="0,550,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="366"/>
-        <Button Name="button_return" Background="Black" Foreground="White" Opacity=".85" Content="Return" Margin="0,656,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="366" Click="Button_return_Click"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,223,0,0" Foreground="White" FontSize="30" Text="Select An Activity" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ComboBox Margin="0,265,0,0" Width="366" HorizontalAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,336,0,0" Foreground="White" FontSize="30" Text="Select an answer for your Activity" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ComboBox Margin="0,384,0,0" Width="366" HorizontalAlignment="Center"/>
+        <Button Name="button_register" Background="Black" Foreground="White" Opacity=".85" Content="Register Activity" Margin="0,467,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="366"/>
+        <Button Name="button_return" Background="Black" Foreground="White" Opacity=".85" Content="Return" Margin="0,562,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Width="366" Click="Button_return_Click"/>
 
 
 
