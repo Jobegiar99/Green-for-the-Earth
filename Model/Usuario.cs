@@ -38,6 +38,9 @@ namespace Green_for_the_Earth.Model
         public int Pescado { get; set; }
         public int ImprovCarne { get; set; }
         public int ImprovCarro { get; set; }
+        public double EmisionComida { get; set; }
+        public double EmisionTransporte { get; set; }
+        public double EmisionHogar { get; set; }
 
         public Usuario()
         {
@@ -61,6 +64,10 @@ namespace Green_for_the_Earth.Model
             EmisionGasTotal = 0;
             Co2semanal = 0;
             Co2Total = 0;
+            EmisionHogar = 0;
+            EmisionComida = 0;
+            EmisionTransporte = 0;
+           
 
         }
         ~Usuario() { }
@@ -85,6 +92,7 @@ namespace Green_for_the_Earth.Model
                 if (ModeloCarro == carros[i])
                 {
                     EmisionCarro = emPorModelo[i];
+                    EmisionTransporte += EmisionCarro;
                 }
             }
         }
@@ -95,6 +103,7 @@ namespace Green_for_the_Earth.Model
             double km = horas * 11.3;
             KmCarro += km;
             Co2semanal += km * EmisionCarro;
+            EmisionTransporte += Co2semanal;
         }
         public void addKmCamion(int horas, int minutos)
         {
@@ -102,6 +111,7 @@ namespace Green_for_the_Earth.Model
             double km = horas * 9.1;
             KmCamion += km;
             Co2semanal += km * 0.7 / 50;
+            EmisionTransporte += Co2semanal;
         }
         public void addKmTaxi(int horas, int minutos)
         {
@@ -109,6 +119,7 @@ namespace Green_for_the_Earth.Model
             double km = horas * 11.3;
             KmTaxi += km;
             Co2semanal += km * 0.188;
+            EmisionTransporte += Co2semanal;
         }
         //de una ciudad a otra
         public void addKmVuelos(int horas, int minutos)
@@ -117,17 +128,20 @@ namespace Green_for_the_Earth.Model
             double km = horas * 900;
             KmVuelos += km;
             Co2semanal += km * 0.25;
+            EmisionTransporte += Co2semanal;
         }
 
         public void addElectricidad(double kwh)
         {
             Electricidad += kwh;
             Co2semanal += kwh * 2.15 * 0.7 / 10.65;
+            EmisionHogar += Co2semanal;
         }
 
         public void addEmisionGas(double gas)
         {
             EmisionGas += gas * 2.15;
+            EmisionHogar += EmisionGas;
         }
 
         public double comoVas()
@@ -140,24 +154,28 @@ namespace Green_for_the_Earth.Model
             //pide porciones
             this.Carne = carne;
             Co2semanal += carne * 4.05;
+            EmisionComida += Co2semanal;
         }
         public void setPollo(int pollo)
         {
             //pide porciones
             this.Pollo = pollo;
             Co2semanal += pollo * 0.234;
+            EmisionComida += Co2semanal;
         }
         public void setPuerco(int puerco)
         {
             //pide porciones
             this.Puerco = puerco;
             Co2semanal += puerco * 0.55;
+            EmisionComida += Co2semanal;
         }
         public void setPescado(int pescado)
         {
             //pide porciones
             this.Pescado = pescado;
             Co2semanal += pescado * 0.0495;
+            EmisionComida += Co2semanal;
         }
 
         //Total de la semana, se borran los datos semanales y se guardan en total

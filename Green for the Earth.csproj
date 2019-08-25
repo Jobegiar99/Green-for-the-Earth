@@ -145,6 +145,7 @@
     <Compile Include="RegistrationMenu.xaml.cs">
       <DependentUpon>RegistrationMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="userControl.cs" />
     <Compile Include="UserMenu.xaml.cs">
       <DependentUpon>UserMenu.xaml</DependentUpon>
     </Compile>

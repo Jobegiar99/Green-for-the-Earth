@@ -72,6 +72,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Name" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Green_for_the_Earth.ClimateChangeTest" />
     <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
