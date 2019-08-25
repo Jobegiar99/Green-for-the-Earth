@@ -19,6 +19,9 @@ namespace Green_for_the_Earth
         public static int UserId { get; set; }
         public MainPage()
         {
+            UserControl.EmisionTransporte = 5;
+            UserControl.EmisionComida = 5;
+            UserControl.Emisionhogar = 5;
             var displayInformation = DisplayInformation.GetForCurrentView();
             var screenSize = new Size(displayInformation.ScreenWidthInRawPixels,
                                       displayInformation.ScreenHeightInRawPixels);
@@ -36,11 +39,12 @@ namespace Green_for_the_Earth
         {
             var dialog = new MessageDialog("");
             dialog.Content = "";
-
             using (var db = new GreenContext())
             {
                 var user = db.Usuarios.FirstOrDefault(l => l.UserName == txtBox_Username.Text 
                 && l.Password == txtBox_Password.Password);
+              
+
                 if (user != null)
                 {
                     UserId = user.Id;
