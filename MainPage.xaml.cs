@@ -16,6 +16,7 @@ namespace Green_for_the_Earth
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public static int UserId { get; set; }
         public MainPage()
         {
             var displayInformation = DisplayInformation.GetForCurrentView();
@@ -38,10 +39,13 @@ namespace Green_for_the_Earth
 
             using (var db = new GreenContext())
             {
-                var user = db.Uses.FirstOrDefault(l => l.UserName == txtBox_Username.Text 
+                var user = db.Usuarios.FirstOrDefault(l => l.UserName == txtBox_Username.Text 
                 && l.Password == txtBox_Password.Password);
-                if(user != null)
+                if (user != null)
+                {
+                    UserId = user.Id;
                     this.Frame.Navigate(typeof(UserMenu));
+                }
                 else
                     dialog.Content += "The username or password are incorrect\n";
             }

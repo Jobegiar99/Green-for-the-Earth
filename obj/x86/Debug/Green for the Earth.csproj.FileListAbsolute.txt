@@ -273,12 +273,9 @@ C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758768200000000.json
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\App.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\ClimateChangeTest.xbf
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\IndividualResults.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\MainPage.xbf
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\RegisterActivity.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\RegistrationMenu.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\UserMenu.xbf
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\WorldProgress.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Green for the Earth.xr.xml
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Green for the Earth.exe
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Green for the Earth.pdb
@@ -429,39 +426,28 @@ C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\System.Xml.XmlSerializer.dll
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\Green for the Earth.csprojAssemblyReference.cache
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\App.g.i.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\App.g.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ClimateChangeTest.g.i.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ClimateChangeTest.g.cs
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\IndividualResults.g.i.cs
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\IndividualResults.g.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\MainPage.g.i.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\MainPage.g.cs
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegisterActivity.g.i.cs
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegisterActivity.g.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegistrationMenu.g.i.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegistrationMenu.g.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\UserMenu.g.i.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\UserMenu.g.cs
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.g.i.cs
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.g.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\XamlTypeInfo.g.cs
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\App.xaml
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ClimateChangeTest.xaml
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\IndividualResults.xaml
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\MainPage.xaml
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegisterActivity.xaml
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegistrationMenu.xaml
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\UserMenu.xaml
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.xaml
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\App.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ClimateChangeTest.xbf
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\IndividualResults.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\MainPage.xbf
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegisterActivity.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegistrationMenu.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\UserMenu.xbf
-C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\XamlSaveStateFile.xml
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\Green for the Earth.csproj.CoreCompileInputs.cache
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\Green for the Earth.csproj.CopyComplete
@@ -563,3 +549,38 @@ C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758768200000000.json
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\IndividualResults.xbf
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\IndividualResults.g.i.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\IndividualResults.g.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\IndividualResults.xaml
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\IndividualResults.xbf
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.g.i.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.g.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.xaml
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.xbf
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\WorldProgress.xbf
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\RegisterActivity.xbf
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegisterActivity.g.i.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegisterActivity.g.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegisterActivity.xaml
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegisterActivity.xbf
+C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\ClimateChangeTest.xbf
+C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\IndividualResults.xbf
+C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\RegisterActivity.xbf
+C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\WorldProgress.xbf
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ClimateChangeTest.g.i.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ClimateChangeTest.g.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\IndividualResults.g.i.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\IndividualResults.g.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\RegisterActivity.g.i.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\RegisterActivity.g.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\WorldProgress.g.i.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\WorldProgress.g.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ClimateChangeTest.xaml
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\IndividualResults.xaml
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\RegisterActivity.xaml
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\WorldProgress.xaml
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ClimateChangeTest.xbf
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\IndividualResults.xbf
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\RegisterActivity.xbf
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\WorldProgress.xbf

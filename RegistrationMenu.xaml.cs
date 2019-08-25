@@ -41,7 +41,7 @@ namespace Green_for_the_Earth
 
             using (var db = new GreenContext())
             {
-                var user = db.Uses.FirstOrDefault(l => l.UserName == txtBox_Username.Text);
+                var user = db.Usuarios.FirstOrDefault(l => l.UserName == txtBox_Username.Text);
 
                 if (passwordBox_ConfirmYourPassword.Password != passwordBox_TypeYourPassword.Password)
                 {
@@ -53,7 +53,7 @@ namespace Green_for_the_Earth
                 }
                 else
                 {
-                    db.Uses.Add(new Model.Use{ Password = passwordBox_TypeYourPassword.Password,
+                    db.Usuarios.Add(new Model.Usuario{ Password = passwordBox_TypeYourPassword.Password,
                         UserName = txtBox_Username.Text });
                     db.SaveChanges();
                 }

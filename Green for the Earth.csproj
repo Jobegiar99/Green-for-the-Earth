@@ -128,16 +128,16 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20190825014110_initial.cs" />
-    <Compile Include="Migrations\20190825014110_initial.designer.cs">
-      <DependentUpon>20190825014110_initial.cs</DependentUpon>
+    <Compile Include="Migrations\20190825100855_initial.cs" />
+    <Compile Include="Migrations\20190825100855_initial.designer.cs">
+      <DependentUpon>20190825100855_initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20190825085223_added-Emision.cs" />
-    <Compile Include="Migrations\20190825085223_added-Emision.designer.cs">
-      <DependentUpon>20190825085223_added-Emision.cs</DependentUpon>
+    <Compile Include="Migrations\20190825120126_second.cs" />
+    <Compile Include="Migrations\20190825120126_second.designer.cs">
+      <DependentUpon>20190825120126_second.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\GreenContextModelSnapshot.cs" />
-    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegisterActivity.xaml.cs">
       <DependentUpon>RegisterActivity.xaml</DependentUpon>
