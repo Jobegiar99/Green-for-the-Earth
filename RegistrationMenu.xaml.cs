@@ -47,6 +47,16 @@ namespace Green_for_the_Earth
                 {
                     dialog.Content += "Please verify that both passwords are the same";
                 }
+                else if(passwordBox_TypeYourPassword.Password == "" || passwordBox_TypeYourPassword.Password.Length < 3)
+                {
+                    dialog.Content += "The password is not accepted";
+
+                }
+                else if(txtBox_Username.Text == "" || txtBox_Username.Text.Length < 3)
+                {
+                    dialog.Content += "The username is not valid";
+
+                }
                 else if (user != null)
                 {
                     dialog.Content += "That username is already taken\n";

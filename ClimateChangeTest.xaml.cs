@@ -27,6 +27,8 @@ namespace Green_for_the_Earth
             this.InitializeComponent();
         }
 
+
+
         private void Button_finish_Click(object sender, RoutedEventArgs e)
         {
 
