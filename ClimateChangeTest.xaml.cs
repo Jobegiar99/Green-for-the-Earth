@@ -26,5 +26,15 @@ namespace Green_for_the_Earth
         {
             this.InitializeComponent();
         }
+
+        private void Button_finish_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_return_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(UserMenu));
+        }
     }
 }

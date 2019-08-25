@@ -544,3 +544,8 @@ C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758768200000000.json
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\ClimateChangeTest.xbf
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ClimateChangeTest.g.i.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ClimateChangeTest.g.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ClimateChangeTest.xaml
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\ClimateChangeTest.xbf

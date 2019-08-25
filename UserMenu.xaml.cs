@@ -34,7 +34,7 @@ namespace Green_for_the_Earth
 
         private void Button_test_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(ClimateChangeTest));
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)
