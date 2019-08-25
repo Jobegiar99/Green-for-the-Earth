@@ -47,5 +47,10 @@ namespace Green_for_the_Earth
                 this.Frame.Navigate(typeof(UserMenu));
             }
         }
+
+        private void Button_exit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
     }
 }

@@ -138,6 +138,8 @@
     <Content Include="Assets\BackgroundMain.jpg" />
     <Content Include="Assets\BackgroundUserMenu.jpg" />
     <Content Include="Assets\IndividualProgress.png" />
+    <Content Include="Assets\Information.png" />
+    <Content Include="Assets\registerActivity.png" />
     <Content Include="Assets\testMenuIcon.png" />
     <Content Include="Assets\World.png" />
     <Content Include="Properties\Default.rd.xml" />

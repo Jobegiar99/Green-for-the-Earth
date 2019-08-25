@@ -47,16 +47,29 @@
             <HubSection Margin="-1670,300,0,0" Width="288" Height="351">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button Opacity="0.45" Name="button_WorldProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
-                            <Image  Source="Assets/World.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
+                        <Button Opacity="0.45" Name="button_RegisterActivity" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                            <Image  Source="Assets/RegisterActivity.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock Opacity="1"  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text="     Register an Activity" Margin="0,280,0,0" FontSize="20"/>
                     </Grid>
                 </DataTemplate>
             </HubSection>
 
+            <HubSection Margin="-810,300,0,0" Width="288" Height="351">
+                <DataTemplate>
+                    <Grid  Opacity="1" Height="350" Width="350">
+                        <Button Opacity="0.45" Name="button_Bibliography" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                            <Image  Source="Assets/Information.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
+                        </Button>
+                        <TextBlock  Name="txt_Test" Foreground="WhiteSmoke" FontWeight="ExtraBold" Text="          Bibliography" Margin="0,280,0,0" FontSize="20"/>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+
+
 
         </Hub>
-
+        <Button  Opacity="0.7" FontSize="30" Name="button_return" Content="return" Click="Button_return_Click" Margin="150,650,0,0" Background="Black" Foreground="White" Width="200" Height="70" />
+        <Button  Opacity="0.7" FontSize="30" Name="button_exit" Content="Exit" Click="Button_exit_Click" Margin="1150,650,0,0" Background="Black" Foreground="White" Width="200" Height="70" />
     </Grid>
 </Page>

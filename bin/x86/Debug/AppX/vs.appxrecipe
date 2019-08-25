@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-08-25T00:35:55.511</Modified>
+      <Modified>2019-08-25T02:01:33.568</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Green for the Earth.exe">
       <PackagePath>entrypoint\Green for the Earth.exe</PackagePath>
-      <Modified>2019-08-25T00:35:55.179</Modified>
+      <Modified>2019-08-25T02:01:33.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -510,6 +510,14 @@
       <PackagePath>Assets\IndividualProgress.png</PackagePath>
       <Modified>2019-08-24T23:57:30.136</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\Information.png">
+      <PackagePath>Assets\Information.png</PackagePath>
+      <Modified>2019-08-25T01:33:02.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\registerActivity.png">
+      <PackagePath>Assets\registerActivity.png</PackagePath>
+      <Modified>2019-08-25T01:27:25.292</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\testMenuIcon.png">
       <PackagePath>Assets\testMenuIcon.png</PackagePath>
       <Modified>2019-08-24T23:12:44.632</Modified>
@@ -558,23 +566,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Green for the Earth.xr.xml">
       <PackagePath>Green for the Earth.xr.xml</PackagePath>
-      <Modified>2019-08-25T00:08:49.115</Modified>
+      <Modified>2019-08-25T01:36:05.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-08-25T00:35:55.010</Modified>
+      <Modified>2019-08-25T02:01:33.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-08-25T00:35:55.010</Modified>
+      <Modified>2019-08-25T02:01:33.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\RegistrationMenu.xbf">
       <PackagePath>RegistrationMenu.xbf</PackagePath>
-      <Modified>2019-08-25T00:35:55.010</Modified>
+      <Modified>2019-08-25T02:01:33.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\UserMenu.xbf">
       <PackagePath>UserMenu.xbf</PackagePath>
-      <Modified>2019-08-25T00:35:55.011</Modified>
+      <Modified>2019-08-25T02:01:33.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -582,11 +590,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-08-25T00:25:19.478</Modified>
+      <Modified>2019-08-25T01:35:15.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Core\Green for the Earth.exe">
       <PackagePath>Green for the Earth.exe</PackagePath>
-      <Modified>2019-08-25T00:35:55.498</Modified>
+      <Modified>2019-08-25T02:01:33.556</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
