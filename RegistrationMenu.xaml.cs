@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Green_for_the_Earth.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -37,31 +38,27 @@ namespace Green_for_the_Earth
         {
             var dialog = new MessageDialog("");
             dialog.Content = "";
-            
-            //Add a way to verify that the username does not exists on the database below
-            //if( ... ) 
-            {
 
-            }//else
+            using (var db = new GreenContext())
             {
-                //remove the comment of the line below after checking that the username is unique.
-                //dialog.Content += "That username is already taken\n";
+                var user = db.Uses.FirstOrDefault(l => l.UserName == txtBox_Username.Text);
+
+                if (passwordBox_ConfirmYourPassword.Password != passwordBox_TypeYourPassword.Password)
+                {
+                    dialog.Content += "Please verify that both passwords are the same";
+                }
+                else if (user != null)
+                {
+                    dialog.Content += "That username is already taken\n";
+                }
+                else
+                {
+                    db.Uses.Add(new Model.Use{ Password = passwordBox_TypeYourPassword.Password,
+                        UserName = txtBox_Username.Text });
+                    db.SaveChanges();
+                }
             }
             
-
-            if (passwordBox_ConfirmYourPassword.Password == passwordBox_TypeYourPassword.Password)
-            {               
-                //You can add the logic above this comment for updating the database with a new user.
-
-                //this.Frame.Nav
-            }
-            else
-            {
-              
-                dialog.Content += "Please verify that both passwords are the same";
-                
-            }
-
             if(dialog.Content!="") await dialog.ShowAsync();
             else
             {

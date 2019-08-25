@@ -15,7 +15,7 @@
         <TextBox Name="txtBox_Username" HorizontalAlignment="Center" Margin="0,318,0,0" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Width="307"/>
         <TextBlock FontSize="30" Name="txt_Username" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,274,0,0" Text="Type your Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Foreground="GhostWhite"/>
         <TextBlock FontSize="30" HorizontalAlignment="Center" Margin="0,410,0,0" Text="Type your Password" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-        <PasswordBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="307" Margin="0,468,0,0"/>
+        <PasswordBox Name="txtBox_Password" HorizontalAlignment="Center" VerticalAlignment="Top" Width="307" Margin="0,468,0,0"/>
         
         <Button Opacity=".85" FontSize="20" Background="Black"   Name="button_register" Click="Button_register_Click" Content="Register" HorizontalAlignment="Center" Margin="-200,550,0,0" Width="101" VerticalAlignment="Top" Foreground="White"/>
         <Button Opacity=".85" Background="Black" FontSize="20" Name="button_login" Content="Login" Margin="200,550,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Width="110" Height="41" Click="Button_login_Click"/>
