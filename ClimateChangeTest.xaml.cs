@@ -369,6 +369,7 @@ namespace Green_for_the_Earth
                     txt_DropDownQuestion.Visibility = Visibility.Collapsed;
                     comboBox_answers.Visibility = Visibility.Collapsed;
                     button_finish.Opacity = 1;
+                   
                 }
             }
            

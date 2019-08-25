@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Green_for_the_Earth.Model;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -27,9 +28,13 @@ namespace Green_for_the_Earth
     {
         public IndividualResults()
         {
+            
             this.InitializeComponent();
+            progressBar_House.Value = UserControl.Emisionhogar;
+            progressBar_Meat.Value = UserControl.EmisionComida;
+            progressBar_Transport.Value = UserControl.EmisionTransporte;
 
-            using(var db = new GreenContext())
+            using (var db = new GreenContext())
             {
                 var bars = db.Usuarios.Where(u => u.Id == MainPage.UserId)
                     .Select(l => new { l.Electricidad, l.KmCarro, l.KmCamion, l.KmVuelos, l.KmTaxi, l.Carne }).FirstOrDefault();

@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Green_for_the_Earth.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Green_for_the_Earth.Model;
 
 namespace Green_for_the_Earth.Model
 {
@@ -42,6 +44,8 @@ namespace Green_for_the_Earth.Model
         public int ImprovCarne { get; set; }
         public int ImprovCarro { get; set; }
 
+      
+
         public Usuario()
         {
             carros = new string[11] { "Toyota Yaris", "Toyota Corolla", "Nissan Versa", "Nissan March", "Chevrolet Aveo", "Toyota Prius", "Toyota Rav4", "Honda CR-V", "Volkswagen Jetta", "Volkswagen Vento", "Ford Expedition" };
@@ -64,12 +68,17 @@ namespace Green_for_the_Earth.Model
             EmisionGasTotal = 0;
             Co2semanal = 0;
             Co2Total = 0;
+           
 
         }
         ~Usuario() { }
         public void setNombre(String nombre)
         {
             this.Nombre = nombre;
+        }
+        public void setUser(string nombre)
+        {
+            this.UserName = nombre;
         }
         public void setPais(String pais)
         {
@@ -88,6 +97,7 @@ namespace Green_for_the_Earth.Model
                 if (ModeloCarro == carros[i])
                 {
                     EmisionCarro = emPorModelo[i];
+                    UserControl.EmisionTransporte += EmisionCarro;
                 }
             }
         }
@@ -98,6 +108,7 @@ namespace Green_for_the_Earth.Model
             double km = horas * 11.3;
             KmCarro += km;
             Co2semanal += km * EmisionCarro;
+            UserControl.EmisionTransporte += Co2semanal;
         }
         public void addKmCamion(int horas, int minutos)
         {
@@ -105,6 +116,7 @@ namespace Green_for_the_Earth.Model
             double km = horas * 9.1;
             KmCamion += km;
             Co2semanal += km * 0.7 / 50;
+            UserControl.EmisionTransporte += Co2semanal;
         }
         public void addKmTaxi(int horas, int minutos)
         {
@@ -112,6 +124,7 @@ namespace Green_for_the_Earth.Model
             double km = horas * 11.3;
             KmTaxi += km;
             Co2semanal += km * 0.188;
+            UserControl.EmisionTransporte += Co2semanal;
         }
         //de una ciudad a otra
         public void addKmVuelos(int horas, int minutos)
@@ -120,17 +133,20 @@ namespace Green_for_the_Earth.Model
             double km = horas * 900;
             KmVuelos += km;
             Co2semanal += km * 0.25;
+            UserControl.EmisionTransporte += Co2semanal;
         }
 
         public void addElectricidad(double kwh)
         {
             Electricidad += kwh;
             Co2semanal += kwh * 2.15 * 0.7 / 10.65;
+            UserControl.Emisionhogar += Co2semanal;
         }
 
         public void addEmisionGas(double gas)
         {
             EmisionGas += gas * 2.15;
+            UserControl.Emisionhogar += Co2semanal;
         }
 
         public double comoVas()
@@ -143,24 +159,28 @@ namespace Green_for_the_Earth.Model
             //pide porciones
             this.Carne = carne;
             Co2semanal += carne * 4.05;
+            UserControl.EmisionComida += Co2semanal;
         }
         public void setPollo(int pollo)
         {
             //pide porciones
             this.Pollo = pollo;
             Co2semanal += pollo * 0.234;
+            UserControl.EmisionComida += Co2semanal;
         }
         public void setPuerco(int puerco)
         {
             //pide porciones
             this.Puerco = puerco;
             Co2semanal += puerco * 0.55;
+            UserControl.EmisionComida += Co2semanal;
         }
         public void setPescado(int pescado)
         {
             //pide porciones
             this.Pescado = pescado;
             Co2semanal += pescado * 0.0495;
+            UserControl.EmisionComida += Co2semanal;
         }
 
         //Total de la semana, se borran los datos semanales y se guardan en total
