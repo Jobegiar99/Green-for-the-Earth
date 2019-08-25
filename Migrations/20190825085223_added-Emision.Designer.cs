@@ -8,9 +8,10 @@ using Green_for_the_Earth.Data;
 namespace Green_for_the_Earth.Migrations
 {
     [DbContext(typeof(GreenContext))]
-    partial class GreenContextModelSnapshot : ModelSnapshot
+    [Migration("20190825085223_added-Emision")]
+    partial class addedEmision
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.6");
