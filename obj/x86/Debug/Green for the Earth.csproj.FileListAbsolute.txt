@@ -559,3 +559,18 @@ C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.xaml
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\WorldProgress.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\WorldProgress.xbf
+C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\ClimateChangeTest.xbf
+C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\IndividualResults.xbf
+C:\Users\ianan\Green-for-the-Earth\bin\x86\Debug\WorldProgress.xbf
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ClimateChangeTest.g.i.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ClimateChangeTest.g.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\IndividualResults.g.i.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\IndividualResults.g.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\WorldProgress.g.i.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\WorldProgress.g.cs
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ClimateChangeTest.xaml
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\IndividualResults.xaml
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\WorldProgress.xaml
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\ClimateChangeTest.xbf
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\IndividualResults.xbf
+C:\Users\ianan\Green-for-the-Earth\obj\x86\Debug\WorldProgress.xbf
