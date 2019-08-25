@@ -61,5 +61,10 @@ namespace Green_for_the_Earth
         {
             this.Frame.Navigate(typeof(RegisterActivity));
         }
+
+        private void Button_Bibliography_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Bibliography));
+        }
     }
 }

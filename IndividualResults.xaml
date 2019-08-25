@@ -13,15 +13,15 @@
         <Image Source="Assets/BackgroundTest.jpeg" Stretch="Fill" Grid.RowSpan="2"/>
 
 
-        <ProgressBar  x:Name="progressBar_House" Minimum="0" Maximum="1700" Value="0"  HorizontalAlignment="Left" Height="46" Margin="387,151,0,0" VerticalAlignment="Top" Width="736"/>
+        <ProgressBar  x:Name="progressBar_House" Minimum="0" Maximum="1700" Value="0"  HorizontalAlignment="Left" Height="46" Margin="500,151,0,0" VerticalAlignment="Top" Width="500"/>
         <TextBlock Name="txt_House" FontSize="40" Foreground="White" HorizontalAlignment="Left" Margin="618,90,0,0" Text="House statistics"  TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Image Source="Assets/BurningWorld.png" HorizontalAlignment="Center" Height="97" Margin="850,126,0,0" VerticalAlignment="Top" Width="68"/>
         <Image Source="Assets/HappyWorld.png" HorizontalAlignment="Center" Height="96" Margin="-850,126,0,0" VerticalAlignment="Top" Width="108"/>
-        <ProgressBar  x:Name="progressBar_Transport" Minimum="0" Maximum="120" Value="0"  HorizontalAlignment="Left" Height="46" Margin="387,306,0,0" VerticalAlignment="Top" Width="736"/>
+        <ProgressBar  x:Name="progressBar_Transport" Minimum="0" Maximum="120" Value="0"  HorizontalAlignment="Left" Height="46" Margin="500,306,0,0" VerticalAlignment="Top" Width="500"/>
         <TextBlock x:Name="txt_Transport" FontSize="40" Foreground="White" HorizontalAlignment="Left" Margin="547,245,0,0" Text="Transportation statistics"  TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Image Source="Assets/BurningWorld.png" HorizontalAlignment="Center" Height="97" Margin="850,281,0,0" VerticalAlignment="Top" Width="68"/>
         <Image Source="Assets/HappyWorld.png" HorizontalAlignment="Center" Height="96" Margin="-850,281,0,0" VerticalAlignment="Top" Width="108"/>
-        <ProgressBar  x:Name="progressBar_Meat" Minimum="0" Maximum="18" Value="0"  HorizontalAlignment="Left" Height="46" Margin="387,457,0,0" VerticalAlignment="Top" Width="736"/>
+        <ProgressBar  x:Name="progressBar_Meat" Minimum="0" Maximum="18" Value="0"  HorizontalAlignment="Left" Height="46" Margin="500,457,0,0" VerticalAlignment="Top" Width="500"/>
         <TextBlock x:Name="txt_Food" FontSize="40" Foreground="White" HorizontalAlignment="Left" Margin="629,396,0,0" Text="Meat statistics"  TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Image Source="Assets/BurningWOrld.png" HorizontalAlignment="Center" Height="97" Margin="850,432,0,0" VerticalAlignment="Top" Width="68"/>
         <Image Source="Assets/HappyWorld.png" HorizontalAlignment="Center" Height="96" Margin="-850,432,0,0" VerticalAlignment="Top" Width="108"/>
@@ -35,7 +35,7 @@
            Opacity="1"
            DisplayMode="Overlay"
           
-            OpenPaneLength="296" Margin="-10,5,1216,-5">
+            OpenPaneLength="750" Margin="-10,5,746,-5">
             <SplitView.Pane>
                 <TextBlock Text="Pane"
                    FontSize="24"
