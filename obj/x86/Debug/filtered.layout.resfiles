@@ -2,6 +2,9 @@ WinMetadata\Windows.winmd
 Assets\BackgroundMain.jpg
 Assets\BackgroundTest.jpeg
 Assets\BackgroundUserMenu.jpg
+Assets\backPanelTips.jpg
+Assets\BurningWorld.png
+Assets\happyWorld.png
 Assets\IndividualProgress.png
 Assets\Information.png
 Assets\LockScreenLogo.scale-200.png
@@ -17,7 +20,9 @@ Assets\World.png
 App.xbf
 ClimateChangeTest.xbf
 Green for the Earth.xr.xml
+IndividualResults.xbf
 MainPage.xbf
 RegistrationMenu.xbf
 UserMenu.xbf
+WorldProgress.xbf
 Properties\Default.rd.xml

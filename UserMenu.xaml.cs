@@ -46,5 +46,15 @@ namespace Green_for_the_Earth
         {
             Application.Current.Exit();
         }
+
+        private void Button_individualProgress_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(IndividualResults));
+        }
+
+        private void Button_WorldProgress_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(WorldProgress));
+        }
     }
 }
