@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Green_for_the_Earth.Model
 {
-    public class User
+    public class Use
     {
         public int Id { get; set; }
         public string UserName { get; set; }

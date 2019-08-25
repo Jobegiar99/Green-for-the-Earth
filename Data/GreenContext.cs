@@ -10,7 +10,7 @@ namespace Green_for_the_Earth.Data
 {
     public class GreenContext : DbContext
     {
-        public DbSet<User> Users { get; set; }
+        public DbSet<Use> Uses { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

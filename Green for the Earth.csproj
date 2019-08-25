@@ -122,9 +122,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\20190825013418_initial.cs" />
-    <Compile Include="Migrations\20190825013418_initial.designer.cs">
-      <DependentUpon>20190825013418_initial.cs</DependentUpon>
+    <Compile Include="Migrations\20190825014110_initial.cs" />
+    <Compile Include="Migrations\20190825014110_initial.designer.cs">
+      <DependentUpon>20190825014110_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\GreenContextModelSnapshot.cs" />
     <Compile Include="Model\User.cs" />
