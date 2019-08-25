@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bernardo\\Documents\\Trabajos tec\\Hack Monterrey 2019\\Green for the Earth\\Green for the Earth.csproj": {}
+    "C:\\Users\\ianan\\Green-for-the-Earth\\Green for the Earth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bernardo\\Documents\\Trabajos tec\\Hack Monterrey 2019\\Green for the Earth\\Green for the Earth.csproj": {
+    "C:\\Users\\ianan\\Green-for-the-Earth\\Green for the Earth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bernardo\\Documents\\Trabajos tec\\Hack Monterrey 2019\\Green for the Earth\\Green for the Earth.csproj",
+        "projectUniqueName": "C:\\Users\\ianan\\Green-for-the-Earth\\Green for the Earth.csproj",
         "projectName": "Green for the Earth",
-        "projectPath": "C:\\Users\\Bernardo\\Documents\\Trabajos tec\\Hack Monterrey 2019\\Green for the Earth\\Green for the Earth.csproj",
-        "packagesPath": "C:\\Users\\Bernardo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bernardo\\Documents\\Trabajos tec\\Hack Monterrey 2019\\Green for the Earth\\obj\\",
+        "projectPath": "C:\\Users\\ianan\\Green-for-the-Earth\\Green for the Earth.csproj",
+        "packagesPath": "C:\\Users\\ianan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ianan\\Green-for-the-Earth\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bernardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ianan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -39,6 +39,16 @@
       "frameworks": {
         "uap10.0.14393": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.8, )"

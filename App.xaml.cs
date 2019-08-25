@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Green_for_the_Earth.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,6 +16,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.EntityFrameworkCore;
 
 namespace Green_for_the_Earth
 {
@@ -32,6 +34,11 @@ namespace Green_for_the_Earth
             ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.FullScreen;
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            using(var db = new GreenContext())
+            {
+                db.Database.Migrate();
+            }
         }
 
         /// <summary>
