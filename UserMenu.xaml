@@ -58,7 +58,7 @@
             <HubSection Margin="-810,300,0,0" Width="288" Height="351">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button Opacity="0.45" Name="button_Bibliography" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                        <Button Opacity="0.45" Name="button_Bibliography" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Click="Button_Bibliography_Click" Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/Information.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text="          Bibliography" Margin="0,280,0,0" FontSize="20"/>

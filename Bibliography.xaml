@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Green_for_the_Earth.Bibliography"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Green_for_the_Earth"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Height="auto" Width="auto" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="Assets/BackgroundTest.jpeg" Stretch="Fill"/>
+        <TextBlock Foreground="White" FontSize="30" HorizontalAlignment="Center" Margin="0,100,0,0" Text="Bibliography" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="184"/>
+        <TextBlock IsTextSelectionEnabled="True" SelectionHighlightColor="Black" HorizontalAlignment="Left" Foreground="White" FontSize="20" Margin="462,177.025,0,0"
+                   Text="https://www.footprintnetwork.org/our-work/ecological-footprint/" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="582.013" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
+
+        <TextBlock IsTextSelectionEnabled="True" SelectionHighlightColor="Black" HorizontalAlignment="Center" Margin="0,262,0,0" Foreground="White" FontSize="20" Text="https://www.sciencedirect.com/science/article/pii/S1470160X12002956" TextWrapping="Wrap" VerticalAlignment="Top" Width="652"/>
+        <TextBlock IsTextSelectionEnabled="True" SelectionHighlightColor="Black" HorizontalAlignment="Center" FontSize="20" Foreground="White"  Margin="10,341,0,0" Text="https://www.gob.mx/profeco/documentos/pescados-y-mariscos-de-las-aguas-a-tu-mesa?state=published" TextWrapping="Wrap" VerticalAlignment="Top" Width="955"/>
+        <TextBlock HorizontalAlignment="Center" Foreground="White" FontSize="20" Margin="0,437,0,0" Text="http://www.revista.unam.mx/vol.13/num10/art101/art101.pdf" TextWrapping="Wrap" VerticalAlignment="Top" Width="577"/>
+        <Button x:Name="button_return" Click="Button_return_Click" Background="Black" Foreground="White" Opacity=".85" Content="Return" Margin="0,607,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="206"/>
+
+
+
+
+    </Grid>
+</Page>

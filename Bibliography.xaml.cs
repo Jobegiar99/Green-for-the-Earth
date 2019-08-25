@@ -20,36 +20,16 @@ namespace Green_for_the_Earth
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-   
-
-    public sealed partial class ClimateChangeTest : Page
+    public sealed partial class Bibliography : Page
     {
-        string[] ejemplo = { "HOLA", "UNO", "DOS", "TRES", "CUATRO", "CINCO", "SEIS" };
-        int control = 0;
-        public ClimateChangeTest()
+        public Bibliography()
         {
-
             this.InitializeComponent();
-           
-            
-        }
-
-
-
-        private void Button_finish_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(UserMenu));
-        }
 
-        private void Button_ComboBox_Click(object sender, RoutedEventArgs e)
-        {
-            if (control < ejemplo.Length - 1) control++;
-            else button_finish.Opacity = .85;
         }
     }
 }

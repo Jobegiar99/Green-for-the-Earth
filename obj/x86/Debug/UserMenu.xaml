@@ -14,7 +14,7 @@
             <HubSection  Width="350" Height="350" Margin="100,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button x:ConnectionId='13' Opacity="0.45" Name="button_test" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                           Height="180" Width="180" Margin="33,86,137,84">
+                        <Button x:ConnectionId='14' Opacity="0.45" Name="button_test" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                           Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/testMenuIcon.png"/>
                         </Button>
                         <TextBlock Opacity="0.8" Name="txt_Test" FontWeight="ExtraBold" Text="Ecological Footprint Test" Margin="0,280,0,0" FontSize="20"/>
@@ -25,7 +25,7 @@
             <HubSection  Width="350" Height="350" Margin="100,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button x:ConnectionId='11' Opacity="0.45" Name="button_individualProgress"                                         Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                        <Button x:ConnectionId='12' Opacity="0.45" Name="button_individualProgress"                                         Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/IndividualProgress.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock Opacity="0.8" Name="txt_Test" FontWeight="ExtraBold" Text="     Check your Progress" Margin="0,280,0,0" FontSize="20"/>
@@ -36,7 +36,7 @@
             <HubSection  Width="350" Height="350" Margin="60,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button x:ConnectionId='9' Opacity="0.45" Name="button_WorldProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                    Height="180" Width="180" Margin="33,86,137,84">
+                        <Button x:ConnectionId='10' Opacity="0.45" Name="button_WorldProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                    Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/World.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock Opacity="1"  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text=" Check the World Progress" Margin="0,280,0,0" FontSize="20"/>
@@ -47,7 +47,7 @@
             <HubSection Margin="-1670,300,0,0" Width="288" Height="351">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button x:ConnectionId='7' Opacity="0.45" Name="button_RegisterActivity" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                       Height="180" Width="180" Margin="33,86,137,84">
+                        <Button x:ConnectionId='8' Opacity="0.45" Name="button_RegisterActivity" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                       Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/RegisterActivity.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock Opacity="1"  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text="     Register an Activity" Margin="0,280,0,0" FontSize="20"/>
@@ -58,7 +58,7 @@
             <HubSection Margin="-810,300,0,0" Width="288" Height="351">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button Opacity="0.45" Name="button_Bibliography" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                        <Button x:ConnectionId='6' Opacity="0.45" Name="button_Bibliography" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"                                    Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/Information.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text="          Bibliography" Margin="0,280,0,0" FontSize="20"/>
