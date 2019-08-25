@@ -7,17 +7,17 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    FontFamily="Cambria Math">
+    FontFamily="Candara">
 
     <Grid Height="auto" Width="auto" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image   Source="Assets/BackgroundMain.jpg" Stretch="Fill"/>
-        <TextBlock x:ConnectionId='2'  Foreground="White" Name="txt_Title" HorizontalAlignment="Center" Margin="0,129,0,0" Text="Green for the Planet" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36"  SelectionHighlightColor="White" FocusVisualPrimaryBrush="Black" />
-        <TextBox x:ConnectionId='3' Name="txtBox_Username" HorizontalAlignment="Center" Margin="0,274,0,0" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Width="307"/>
-        <TextBlock x:ConnectionId='4' FontSize="30" Name="txt_Username" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,230,0,0" Text="Type your Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Foreground="GhostWhite"/>
-        <TextBlock FontSize="20" HorizontalAlignment="Center" Margin="0,410,0,0" Text="Type your Password" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+        <TextBlock x:ConnectionId='2'  Foreground="White" Name="txt_Title" HorizontalAlignment="Center" Margin="0,134,0,0" Text="Green for the Planet" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="70"  SelectionHighlightColor="DarkOliveGreen" FocusVisualPrimaryBrush="Black" />
+        <TextBox x:ConnectionId='3' Name="txtBox_Username" HorizontalAlignment="Center" Margin="0,318,0,0" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Width="307"/>
+        <TextBlock x:ConnectionId='4' FontSize="30" Name="txt_Username" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,274,0,0" Text="Type your Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Foreground="GhostWhite"/>
+        <TextBlock FontSize="30" HorizontalAlignment="Center" Margin="0,410,0,0" Text="Type your Password" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
         <PasswordBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="307" Margin="0,468,0,0"/>
         <Button x:ConnectionId='5' Opacity=".85" FontSize="20" Background="Black"   Name="button_register"                               Content="Register" Margin="613,550,0,0" Width="101" VerticalAlignment="Top" Foreground="White"/>
-        <Button x:ConnectionId='6' Opacity=".85" Background="Black" FontSize="20" Name="button_login" Content="Login" Margin="810,550,0,0" VerticalAlignment="Top" Foreground="White" Width="110" Height="41"/>
+        <Button x:ConnectionId='6' Opacity=".85" Background="Black" FontSize="20" Name="button_login" Content="Login" Margin="810,550,0,0" VerticalAlignment="Top" Foreground="White" Width="110" Height="41"                           />
 
     </Grid>
 

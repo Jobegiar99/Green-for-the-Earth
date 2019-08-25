@@ -223,3 +223,8 @@ C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\RegistrationMenu.xbf
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
 C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758768200000000.json
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\UserMenu.g.i.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\UserMenu.g.cs
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\UserMenu.xaml
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\obj\x86\Debug\UserMenu.xbf
+C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\bin\x86\Debug\UserMenu.xbf
