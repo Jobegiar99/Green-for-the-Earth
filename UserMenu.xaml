@@ -11,18 +11,18 @@
     <Grid Height="auto" Width="auto" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image Source="Assets/BackgroundUserMenu.jpg" Stretch="Fill"/>
         <Hub Name="hub_user" Foreground="White"  Margin="62,53,67,61" >
-            <HubSection  Width="350" Height="350" Margin="100,-525,0,0">
+            <HubSection  Width="350" Height="350" Margin="100,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
                         <Button Opacity="0.45" Name="button_test" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Click="Button_test_Click" Height="180" Width="180" Margin="33,86,137,84">
-                               <Image  Source="Assets/testMenuIcon.png"/>
+                            <Image  Source="Assets/testMenuIcon.png"/>
                         </Button>
                         <TextBlock Opacity="0.8" Name="txt_Test" FontWeight="ExtraBold" Text="Ecological Footprint Test" Margin="0,280,0,0" FontSize="20"/>
                     </Grid>
                 </DataTemplate>
             </HubSection>
 
-            <HubSection  Width="350" Height="350" Margin="100,-525,0,0">
+            <HubSection  Width="350" Height="350" Margin="100,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
                         <Button Opacity="0.45" Name="button_individualProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
@@ -33,13 +33,24 @@
                 </DataTemplate>
             </HubSection>
 
-            <HubSection  Width="350" Height="350" Margin="100,-525,0,0">
+            <HubSection  Width="350" Height="350" Margin="60,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
                         <Button Opacity="0.45" Name="button_WorldProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/World.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
-                        <TextBlock Opacity="1"  Name="txt_Test" FontWeight="ExtraBold" Text="Check the Rest of the World!" Margin="0,280,0,0" FontSize="20"/>
+                        <TextBlock Opacity="1"  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text=" Check the World Progress" Margin="0,280,0,0" FontSize="20"/>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+
+            <HubSection Margin="-1670,300,0,0" Width="288" Height="351">
+                <DataTemplate>
+                    <Grid  Opacity="1" Height="350" Width="350">
+                        <Button Opacity="0.45" Name="button_WorldProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                            <Image  Source="Assets/World.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
+                        </Button>
+                        <TextBlock Opacity="1"  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text="     Register an Activity" Margin="0,280,0,0" FontSize="20"/>
                     </Grid>
                 </DataTemplate>
             </HubSection>
