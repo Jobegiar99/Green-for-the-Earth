@@ -1,7 +1,11 @@
-﻿using Windows.Foundation;
+﻿using Green_for_the_Earth.Data;
+using System.Linq;
+using Windows.Foundation;
 using Windows.Graphics.Display;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using System;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -22,18 +26,28 @@ namespace Green_for_the_Earth
             
         }
 
-        private void Button_register_Click(object sender, RoutedEventArgs e)
+        private  void Button_register_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(RegistrationMenu));
         }
 
-        private void Button_login_Click(object sender, RoutedEventArgs e)
+        private async void Button_login_Click(object sender, RoutedEventArgs e)
         {
-            //Logic to check that the password and user matches
-            //if(...)
+            var dialog = new MessageDialog("");
+            dialog.Content = "";
+
+            using (var db = new GreenContext())
             {
-                this.Frame.Navigate(typeof(UserMenu));
+                var user = db.Uses.FirstOrDefault(l => l.UserName == txtBox_Username.Text 
+                && l.Password == txtBox_Password.Password);
+                if(user != null)
+                    this.Frame.Navigate(typeof(UserMenu));
+                else
+                    dialog.Content += "The username or password are incorrect\n";
             }
+
+            if (dialog.Content != "")
+                await dialog.ShowAsync();
         }
 
         private void Button_exit_Click(object sender, RoutedEventArgs e)

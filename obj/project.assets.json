@@ -31089,11 +31089,12 @@
       ]
     },
     "System.Reflection.Metadata/1.3.0": {
-      "sha512": "jMSCxA4LSyKBGRDm/WtfkO03FkcgRzHxwvQRib1bm2GZ8ifKM1MX1al6breGCEQK280mdl9uQS7JNPXRYk90jw==",
+      "sha512": "piuaOy0ZH1/nNHMdwFrHP27ToY7SVblMqc+u8oEVf434IcpMmWpuU9aXWhAleRYjnKmfB3VIvGswEwiwptueXg==",
       "type": "package",
       "path": "system.reflection.metadata/1.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.1/System.Reflection.Metadata.dll",
@@ -32549,12 +32550,11 @@
       ]
     },
     "System.Text.Encoding.CodePages/4.0.1": {
-      "sha512": "2mhEX//P+gqLjyvauIDsTL5R3WYgmrRVz28WFm798xtHSY6FL2FrO3ug3REgngWiYlzKb7B/r6IKlFzFASggJg==",
+      "sha512": "h4z6rrA/hxWf4655D18IIZ0eaLRa3tQC/j+e26W+VinIHY0l07iEXaAvO0YSYq3MvCjMYy8Zs5AdC1sxNQOB7Q==",
       "type": "package",
       "path": "system.text.encoding.codepages/4.0.1",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -33356,18 +33356,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bernardo\\.nuget\\packages\\": {},
+    "C:\\Users\\ianan\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bernardo\\Documents\\Trabajos tec\\Hack Monterrey 2019\\Green for the Earth\\Green for the Earth.csproj",
+      "projectUniqueName": "C:\\Users\\ianan\\Green-for-the-Earth\\Green for the Earth.csproj",
       "projectName": "Green for the Earth",
-      "projectPath": "C:\\Users\\Bernardo\\Documents\\Trabajos tec\\Hack Monterrey 2019\\Green for the Earth\\Green for the Earth.csproj",
-      "packagesPath": "C:\\Users\\Bernardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bernardo\\Documents\\Trabajos tec\\Hack Monterrey 2019\\Green for the Earth\\obj\\",
+      "projectPath": "C:\\Users\\ianan\\Green-for-the-Earth\\Green for the Earth.csproj",
+      "packagesPath": "C:\\Users\\ianan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ianan\\Green-for-the-Earth\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -33375,7 +33375,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Bernardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ianan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
