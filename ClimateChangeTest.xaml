@@ -9,9 +9,9 @@
     FontFamily="Candata">
 
     <Grid Height="auto" Width="auto" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Image Source="Assets/BackgroundTest.jpeg" Stretch="Fill">
+        <Image Source="Assets/BackgroundTest.jpeg" Stretch="Fill"/>
 
-        </Image>
+
         <TextBlock x:Name="txt_YesNoQuestion" FontSize="40" Foreground="White" Width="auto"  HorizontalAlignment="Center" Margin="0,129,0,0" Text="__QUESTION__" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Button x:Name="button_yes" Opacity=".85" Width="100" Background="Black" FontSize="20" Foreground="White" Content="Yes" Margin="525,233,0,0" VerticalAlignment="Top"/>
         <Button Name="button_no" Opacity=".85" Width="100" Background="Black" FontSize="20" Foreground="White" Content="No" Margin="876,233,0,0" VerticalAlignment="Top"/>

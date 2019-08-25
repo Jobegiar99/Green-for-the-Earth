@@ -25,7 +25,7 @@
             <HubSection  Width="350" Height="350" Margin="100,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button Opacity="0.45" Name="button_individualProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                        <Button Opacity="0.45" Name="button_individualProgress" Click="Button_individualProgress_Click" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/IndividualProgress.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock Opacity="0.8" Name="txt_Test" FontWeight="ExtraBold" Text="     Check your Progress" Margin="0,280,0,0" FontSize="20"/>
@@ -36,7 +36,7 @@
             <HubSection  Width="350" Height="350" Margin="60,-300,0,0">
                 <DataTemplate>
                     <Grid  Opacity="1" Height="350" Width="350">
-                        <Button Opacity="0.45" Name="button_WorldProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"  Height="180" Width="180" Margin="33,86,137,84">
+                        <Button Opacity="0.45" Name="button_WorldProgress" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Click="Button_WorldProgress_Click" Height="180" Width="180" Margin="33,86,137,84">
                             <Image  Source="Assets/World.png" Height="150" Width="150" Margin="-0.4,0.4,0.4,0" VerticalAlignment="Top"/>
                         </Button>
                         <TextBlock Opacity="1"  Name="txt_Test" Foreground="White" FontWeight="ExtraBold" Text=" Check the World Progress" Margin="0,280,0,0" FontSize="20"/>

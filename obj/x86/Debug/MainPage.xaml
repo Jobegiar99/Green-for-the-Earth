@@ -15,11 +15,11 @@
         <TextBox x:ConnectionId='3' Name="txtBox_Username" HorizontalAlignment="Center" Margin="0,318,0,0" HorizontalContentAlignment="Center"  VerticalAlignment="Top" Width="307"/>
         <TextBlock x:ConnectionId='4' FontSize="30" Name="txt_Username" HorizontalAlignment="Center" TextAlignment="Center" Margin="0,274,0,0" Text="Type your Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Foreground="GhostWhite"/>
         <TextBlock FontSize="30" HorizontalAlignment="Center" Margin="0,410,0,0" Text="Type your Password" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
-        <PasswordBox HorizontalAlignment="Center" VerticalAlignment="Top" Width="307" Margin="0,468,0,0"/>
+        <PasswordBox x:ConnectionId='5' Name="txtBox_Password" HorizontalAlignment="Center" VerticalAlignment="Top" Width="307" Margin="0,468,0,0"/>
         
-        <Button x:ConnectionId='5' Opacity=".85" FontSize="20" Background="Black"   Name="button_register"                               Content="Register" HorizontalAlignment="Center" Margin="-200,550,0,0" Width="101" VerticalAlignment="Top" Foreground="White"/>
-        <Button x:ConnectionId='6' Opacity=".85" Background="Black" FontSize="20" Name="button_login" Content="Login" Margin="200,550,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Width="110" Height="41"                           />
-        <Button x:ConnectionId='7'  Opacity="0.85" FontSize="20" Name="button_exit" Content="Exit"                           HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5,630,0,0" Background="Black" Foreground="White" Width="110" Height="40" />
+        <Button x:ConnectionId='6' Opacity=".85" FontSize="20" Background="Black"   Name="button_register"                               Content="Register" HorizontalAlignment="Center" Margin="-200,550,0,0" Width="101" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:ConnectionId='7' Opacity=".85" Background="Black" FontSize="20" Name="button_login" Content="Login" Margin="200,550,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="White" Width="110" Height="41"                           />
+        <Button x:ConnectionId='8'  Opacity="0.85" FontSize="20" Name="button_exit" Content="Exit"                           HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5,630,0,0" Background="Black" Foreground="White" Width="110" Height="40" />
     </Grid>
 
 </Page>

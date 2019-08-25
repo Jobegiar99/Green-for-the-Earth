@@ -122,6 +122,9 @@
       <DependentUpon>ClimateChangeTest.xaml</DependentUpon>
     </Compile>
     <Compile Include="Data\GreenContext.cs" />
+    <Compile Include="IndividualResults.xaml.cs">
+      <DependentUpon>IndividualResults.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -138,6 +141,9 @@
     <Compile Include="UserMenu.xaml.cs">
       <DependentUpon>UserMenu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WorldProgress.xaml.cs">
+      <DependentUpon>WorldProgress.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -148,6 +154,9 @@
     <Content Include="Assets\BackgroundMain.jpg" />
     <Content Include="Assets\BackgroundTest.jpeg" />
     <Content Include="Assets\BackgroundUserMenu.jpg" />
+    <Content Include="Assets\backPanelTips.jpg" />
+    <Content Include="Assets\BurningWorld.png" />
+    <Content Include="Assets\happyWorld.png" />
     <Content Include="Assets\IndividualProgress.png" />
     <Content Include="Assets\Information.png" />
     <Content Include="Assets\registerActivity.png" />
@@ -171,6 +180,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="IndividualResults.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -180,6 +193,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WorldProgress.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -197,7 +214,6 @@
       <Version>6.2.8</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
