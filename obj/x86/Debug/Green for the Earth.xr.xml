@@ -42,8 +42,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="TextLineBounds" />
       <RootProperty Name="Height" />
-      <RootProperty Name="Opacity" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="Opacity" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Name" />

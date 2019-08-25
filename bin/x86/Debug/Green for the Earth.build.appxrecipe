@@ -382,6 +382,12 @@
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\IndividualProgress.png">
       <PackagePath>Assets\IndividualProgress.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\Information.png">
+      <PackagePath>Assets\Information.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\registerActivity.png">
+      <PackagePath>Assets\registerActivity.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\Trabajos tec\Hack Monterrey 2019\Green for the Earth\Assets\testMenuIcon.png">
       <PackagePath>Assets\testMenuIcon.png</PackagePath>
     </AppxPackagedFile>
