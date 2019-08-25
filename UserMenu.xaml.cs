@@ -11,37 +11,26 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Green_for_the_Earth
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class UserMenu : Page
     {
-        public MainPage()
-        {    
+        public UserMenu()
+        {
             this.InitializeComponent();
             
-            
         }
 
-        private void Button_register_Click(object sender, RoutedEventArgs e)
+        private void Button_test_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(RegistrationMenu));
-        }
 
-        private void Button_login_Click(object sender, RoutedEventArgs e)
-        {
-            //Logic to check that the password and user matches
-            //if(...)
-            {
-                this.Frame.Navigate(typeof(UserMenu));
-            }
         }
     }
 }

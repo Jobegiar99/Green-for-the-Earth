@@ -7,7 +7,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="LightGreen" FontFamily="Bell MT" FontStretch="ExtraCondensed" FontStyle="Normal" FontWeight="ExtraBold">
+    Background="LightGreen" FontFamily="Candara" FontStretch="ExtraCondensed" FontStyle="Normal" FontWeight="ExtraBold">
 
     <Grid Height="auto" Width="auto" Background ="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Image Source="Assets/BackgroundMain.jpg" Stretch="Fill"/>
@@ -17,7 +17,7 @@
         <PasswordBox x:ConnectionId='5' Name="passwordBox_TypeYourPassword"  HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" Width="267"/>
         <TextBlock x:ConnectionId='6' Foreground="White" Name="txtBlock_ConfirmPassword" HorizontalAlignment="Center" FontSize="30" Margin="0,421,0,0" Text="Confirm your Password" TextWrapping="Wrap" VerticalAlignment="Top" Width="312" Height="42"/>
         <PasswordBox x:ConnectionId='7' Name="passwordBox_ConfirmYourPassword" HorizontalAlignment="Center" Margin="0,480,0,0" VerticalAlignment="Top" Width="264"/>
-        <Button x:ConnectionId='8' Opacity=".85" Background="Black" Foreground="white" Name="button_Register" Content="Register" Margin="420,600,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="116"/>
+        <Button x:ConnectionId='8' Opacity=".85" Background="Black" Foreground="white" Name="button_Register" Content="Register" Margin="420,600,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="116"                                   />
         <Button x:ConnectionId='9' Opacity=".85" Background="Black" Foreground="White" Name="button_Return" Content="Return" Margin="-420,600,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="116"                            />
 
 
